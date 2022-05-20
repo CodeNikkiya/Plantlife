@@ -35,6 +35,8 @@ moisture_lvl = ""
 if moisture_numb < 4:
     moisture_lvl = "low"
 elif moisture_numb >= 4 and moisture_numb < 8:
-    
+    moisture_lvl = "medium"
+elif moisture_numb >=8 and moisture_numb < 12:
+    moisture_lvl = "high"
 
 print (current_temperatue)
